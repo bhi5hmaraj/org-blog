@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- Dec 21, 2021 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sample Post 2</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Bhishmaraj S" />
+<link rel='icon' type='image/x-icon' href='/images/favicon.ico'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
+<link rel='stylesheet' href='/css/site.css?v=2' type='text/css'/>
+<link rel='stylesheet' href='/css/custom.css' type='text/css'/>
+<link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="/"> UP </a>
+ |
+ <a accesskey="H" href="/"> HOME </a>
+</div><header id="top" class="status">
+<div class='intro'>
+  <img src='/images/about/profile.png' alt='Bhishma' class='no-border'/>
+  <h1>
+    <span class="gray">Bhishmaraj</span>
+    <span class="black">S</span>
+  </h1>
+</div>
+
+<div class='nav'>
+<ul>
+<li><a href='/'>Blog</a>.</li>
+<li><a href='https://github.com/bhi5hmaraj'>GitHub</a>.</li>
+<li><a href='https://www.twitter.com/bhi5hmaraj'>Twitter</a>.</li>
+<li><a href='/index.xml'>RSS</a>.</li>
+<li><a href='/about/'>About</a></li>
+</ul>
+</div>
+</header>
+<main id="content">
+<h1 class="title">Sample Post 2
+<br />
+<span class="subtitle">Published on Dec 21, 2021 by Bhishmaraj S.</span>
+</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org19a6030">Heading 1</a>
+<ul>
+<li><a href="#orgc4a5218">This is the new heading of the post!</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<section id="outline-container-org19a6030" class="outline-2">
+<h2 id="org19a6030">Heading 1</h2>
+<div class="outline-text-2" id="text-org19a6030">
+</div>
+<div id="outline-container-orgc4a5218" class="outline-3">
+<h3 id="orgc4a5218">This is the new heading of the post!</h3>
+<div class="outline-text-3" id="text-orgc4a5218">
+<p>
+This is the best of times, worst of times! </p>
+</div>
+</div>
+</section>
+</main>
+<footer id="postamble" class="status">
+<div class='footer'>
+  Copyright © 2021 Bhishmaraj.<br>
+  Inspired by <a href='https://nicolas.petton.fr'>nicolas.petton.fr</a>, <a href='https://gitlab.com/psachin/psachin.gitlab.io/-/tree/blog_template'>psachin.gitlab.io</a> <br>
+  Last updated on Dec 21, 2021. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#+title: Sample Post 2
+#+date: <2021-12-21 Wed>
+#+filetags: sample
+#+setupfile: ../org-templates/post.org
+
+* Heading 1
+** This is the new heading of the post!
+This is the best of times, worst of times! 
+- Does it support math? 
+- $f(x) = e^x$
+- \(\delta x \)

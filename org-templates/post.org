@@ -1,0 +1,3 @@
+#+AUTHOR: Bhishmaraj S
+#+OPTIONS: toc:t
+#+HTML_DOCTYPE: xhtml-strict
