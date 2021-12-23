@@ -39,8 +39,6 @@ needed.[fn:org-manual][fn:publish]
 **** Gitlab Snippet
      #+HTML: <script src="https://gitlab.com/snippets/1790218.js"></script>
 
-**** Below is the content of =.gitlab-ci.yml=:
-     #+INCLUDE: "../.gitlab-ci.yml" src conf
 
 **** Center aligned image with no border:
      #+ATTR_HTML: :class center no-border

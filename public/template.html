@@ -3,12 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- Dec 17, 2021 -->
+<!-- Dec 21, 2021 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Sample Post</title>
 <meta name="generator" content="Org mode" />
-<meta name="author" content="John Doe" />
+<meta name="author" content="Bhishmaraj S" />
 <link rel='icon' type='image/x-icon' href='/images/favicon.ico'/>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
@@ -45,19 +45,18 @@
  <a accesskey="H" href="/"> HOME </a>
 </div><header id="top" class="status">
 <div class='intro'>
-  <img src='/images/about/profile.png' alt='John Doe' class='no-border'/>
+  <img src='/images/about/profile.png' alt='Bhishma' class='no-border'/>
   <h1>
-    <span class="gray">John</span>
-    <span class="black">Doe</span>
+    <span class="gray">Bhishmaraj</span>
+    <span class="black">S</span>
   </h1>
-  <p>Emacser</p>
 </div>
 
 <div class='nav'>
 <ul>
 <li><a href='/'>Blog</a>.</li>
-<li><a href='http://gitlab.com/'>GitLab</a>.</li>
-<li><a href='https://www.reddit.com/user/'>Reddit</a>.</li>
+<li><a href='https://github.com/bhi5hmaraj'>GitHub</a>.</li>
+<li><a href='https://www.twitter.com/bhi5hmaraj'>Twitter</a>.</li>
 <li><a href='/index.xml'>RSS</a>.</li>
 <li><a href='/about/'>About</a></li>
 </ul>
@@ -66,154 +65,148 @@
 <main id="content">
 <h1 class="title">Sample Post
 <br />
-<span class="subtitle">Published on Feb 05, 2020 by John Doe.</span>
+<span class="subtitle">Published on Feb 05, 2020 by Bhishmaraj S.</span>
 </h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org701624c">HTML snippet:</a></li>
+<li><a href="#org1b2e03b">Python snippet with line numbers:</a></li>
+<li><a href="#orgf4822c7">Emacs Lisp snippet</a></li>
+<li><a href="#org0470869">Github Gist:</a></li>
+<li><a href="#org7f4a70f">Gitlab Snippet</a></li>
+<li><a href="#org64c7328">Center aligned image with no border:</a></li>
+<li><a href="#org33e3ab0">Image with Black border:</a></li>
+<li><a href="#org0b150ae">Image with spaced border:</a></li>
+<li><a href="#org17bd4f5">Image with rounded corners:</a></li>
+<li><a href="#org7be3502">Image with rounded corners and border:</a></li>
+<li><a href="#org81d76aa">Image with Caption:</a></li>
+<li><a href="#org7091778">Image with 40% width:</a></li>
+<li><a href="#orgec7eba3">Table:</a></li>
+</ul>
+</div>
+</div>
 <p>
 <i>This is in Italic</i> and <b>this is bold</b> and <span class="underline">this is how underlined looks</span>. We
 can also use <code>verbatim</code> or <code>code</code>. Use <del>strikethrough</del> if
 needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 </p>
 
-<section id="outline-container-orgb877601" class="outline-2">
-<h2 id="orgb877601">HTML snippet:</h2>
-<div class="outline-text-2" id="text-orgb877601">
+<section id="outline-container-org701624c" class="outline-2">
+<h2 id="org701624c">HTML snippet:</h2>
+<div class="outline-text-2" id="text-org701624c">
 <div class="org-src-container">
-<pre class="src src-html">&lt;html&gt;
-  &lt;h1&gt;&lt;/h1&gt;
-&lt;/html&gt;
+<pre class="src src-html">&lt;<span class="org-function-name">html</span>&gt;
+  &lt;<span class="org-function-name">h1</span>&gt;&lt;/<span class="org-function-name">h1</span>&gt;
+&lt;/<span class="org-function-name">html</span>&gt;
 </pre>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org6070720" class="outline-2">
-<h2 id="org6070720">Python snippet with line numbers:</h2>
-<div class="outline-text-2" id="text-org6070720">
+<section id="outline-container-org1b2e03b" class="outline-2">
+<h2 id="org1b2e03b">Python snippet with line numbers:</h2>
+<div class="outline-text-2" id="text-org1b2e03b">
 <div class="org-src-container">
-<pre class="src src-python"><span class="linenr"> 1: </span>from contextlib import contextmanager
+<pre class="src src-python"><span class="linenr"> 1: </span><span class="org-keyword">from</span> contextlib <span class="org-keyword">import</span> contextmanager
 <span class="linenr"> 2: </span>
-<span class="linenr"> 3: </span>@contextmanager
-<span class="linenr"> 4: </span>def tag(name):
-<span class="linenr"> 5: </span>    print("&lt;%s&gt;" % name)
-<span class="linenr"> 6: </span>    yield
-<span class="linenr"> 7: </span>    print("&lt;/%s&gt;" % name)
+<span class="linenr"> 3: </span><span class="org-type">@contextmanager</span>
+<span class="linenr"> 4: </span><span class="org-keyword">def</span> <span class="org-function-name">tag</span>(name):
+<span class="linenr"> 5: </span>    <span class="org-keyword">print</span>(<span class="org-string">"&lt;%s&gt;"</span> % name)
+<span class="linenr"> 6: </span>    <span class="org-keyword">yield</span>
+<span class="linenr"> 7: </span>    <span class="org-keyword">print</span>(<span class="org-string">"&lt;/%s&gt;"</span> % name)
 <span class="linenr"> 8: </span>
-<span class="linenr"> 9: </span>with tag("h1"):
-<span class="linenr">10: </span>    print("foo")
+<span class="linenr"> 9: </span><span class="org-keyword">with</span> tag(<span class="org-string">"h1"</span>):
+<span class="linenr">10: </span>    <span class="org-keyword">print</span>(<span class="org-string">"foo"</span>)
 </pre>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org66ca63c" class="outline-2">
-<h2 id="org66ca63c">Emacs Lisp snippet</h2>
-<div class="outline-text-2" id="text-org66ca63c">
+<section id="outline-container-orgf4822c7" class="outline-2">
+<h2 id="orgf4822c7">Emacs Lisp snippet</h2>
+<div class="outline-text-2" id="text-orgf4822c7">
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">(message "foo-bar")
+<pre class="src src-emacs-lisp">(message <span class="org-string">"foo-bar"</span>)
 </pre>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org372b3dc" class="outline-2">
-<h2 id="org372b3dc">Github Gist:</h2>
-<div class="outline-text-2" id="text-org372b3dc">
+<section id="outline-container-org0470869" class="outline-2">
+<h2 id="org0470869">Github Gist:</h2>
+<div class="outline-text-2" id="text-org0470869">
 <script src="https://gist.github.com/psachin/97708deb39aa60484c95a9df6f535ba6.js"></script>
 </div>
 </section>
 
-<section id="outline-container-org8d5184b" class="outline-2">
-<h2 id="org8d5184b">Gitlab Snippet</h2>
-<div class="outline-text-2" id="text-org8d5184b">
+<section id="outline-container-org7f4a70f" class="outline-2">
+<h2 id="org7f4a70f">Gitlab Snippet</h2>
+<div class="outline-text-2" id="text-org7f4a70f">
 <script src="https://gitlab.com/snippets/1790218.js"></script>
 </div>
 </section>
 
-<section id="outline-container-org556189a" class="outline-2">
-<h2 id="org556189a">Below is the content of <code>.gitlab-ci.yml</code>:</h2>
-<div class="outline-text-2" id="text-org556189a">
-<div class="org-src-container">
-<pre class="src src-conf">image: iquiw/alpine-emacs
 
-.build: &amp;build
-  script:
-  - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
-  artifacts:
-    paths:
-    - public
+<section id="outline-container-org64c7328" class="outline-2">
+<h2 id="org64c7328">Center aligned image with no border:</h2>
+<div class="outline-text-2" id="text-org64c7328">
 
-pages:
-  &lt;&lt;: *build
-  only:
-  - master
-
-test:
-  &lt;&lt;: *build
-  except:
-  - master
-</pre>
-</div>
-</div>
-</section>
-
-<section id="outline-container-org19a4491" class="outline-2">
-<h2 id="org19a4491">Center aligned image with no border:</h2>
-<div class="outline-text-2" id="text-org19a4491">
-
-<div id="orgf851ee9" class="figure">
+<div id="org65ae4cd" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="center no-border" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org7822033" class="outline-2">
-<h2 id="org7822033">Image with Black border:</h2>
-<div class="outline-text-2" id="text-org7822033">
+<section id="outline-container-org33e3ab0" class="outline-2">
+<h2 id="org33e3ab0">Image with Black border:</h2>
+<div class="outline-text-2" id="text-org33e3ab0">
 
-<div id="org3bcbe3b" class="figure">
+<div id="org2faf4e8" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="black-border" />
 </p>
 </div>
 </div>
 </section>
-<section id="outline-container-org8f64341" class="outline-2">
-<h2 id="org8f64341">Image with spaced border:</h2>
-<div class="outline-text-2" id="text-org8f64341">
+<section id="outline-container-org0b150ae" class="outline-2">
+<h2 id="org0b150ae">Image with spaced border:</h2>
+<div class="outline-text-2" id="text-org0b150ae">
 
-<div id="orgde1bb08" class="figure">
+<div id="org5116c81" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="spaced-border" />
 </p>
 </div>
 </div>
 </section>
-<section id="outline-container-org0db870c" class="outline-2">
-<h2 id="org0db870c">Image with rounded corners:</h2>
-<div class="outline-text-2" id="text-org0db870c">
+<section id="outline-container-org17bd4f5" class="outline-2">
+<h2 id="org17bd4f5">Image with rounded corners:</h2>
+<div class="outline-text-2" id="text-org17bd4f5">
 
-<div id="orgca2b76c" class="figure">
+<div id="orgb2036f6" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org0c3bb6c" class="outline-2">
-<h2 id="org0c3bb6c">Image with rounded corners and border:</h2>
-<div class="outline-text-2" id="text-org0c3bb6c">
+<section id="outline-container-org7be3502" class="outline-2">
+<h2 id="org7be3502">Image with rounded corners and border:</h2>
+<div class="outline-text-2" id="text-org7be3502">
 
-<div id="org31e83cf" class="figure">
+<div id="orgfcbdfc2" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border black-border" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org411253e" class="outline-2">
-<h2 id="org411253e">Image with Caption:</h2>
-<div class="outline-text-2" id="text-org411253e">
+<section id="outline-container-org81d76aa" class="outline-2">
+<h2 id="org81d76aa">Image with Caption:</h2>
+<div class="outline-text-2" id="text-org81d76aa">
 
-<div id="orgcd1cd79" class="figure">
+<div id="org42ba8de" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" />
 </p>
 <p><span class="figure-number">Figure 1: </span>Fan of FSF</p>
@@ -221,20 +214,20 @@ test:
 </div>
 </section>
 
-<section id="outline-container-org996345a" class="outline-2">
-<h2 id="org996345a">Image with 40% width:</h2>
-<div class="outline-text-2" id="text-org996345a">
+<section id="outline-container-org7091778" class="outline-2">
+<h2 id="org7091778">Image with 40% width:</h2>
+<div class="outline-text-2" id="text-org7091778">
 
-<div id="org18f07a6" class="figure">
+<div id="orge88bb3b" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" width="40%" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-orge7e1bd1" class="outline-2">
-<h2 id="orge7e1bd1">Table:</h2>
-<div class="outline-text-2" id="text-orge7e1bd1">
+<section id="outline-container-orgec7eba3" class="outline-2">
+<h2 id="orgec7eba3">Table:</h2>
+<div class="outline-text-2" id="text-orgec7eba3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" align="center">
 
 
@@ -342,9 +335,9 @@ It&rsquo;s easy to publish org-mode pages via <a href="https://about.gitlab.com/
 </div></main>
 <footer id="postamble" class="status">
 <div class='footer'>
-  Copyright © 2020 <a href='mailto:jhon.doe@example.com'>John Doe.</a><br>
-  Inspired by <a href='https://nicolas.petton.fr'>https://nicolas.petton.fr</a> <br>
-  Last updated on Dec 17, 2021. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
+  Copyright © 2021 Bhishmaraj.<br>
+  Inspired by <a href='https://nicolas.petton.fr'>nicolas.petton.fr</a>, <a href='https://gitlab.com/psachin/psachin.gitlab.io/-/tree/blog_template'>psachin.gitlab.io</a> <br>
+  Last updated on Dec 21, 2021. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6).
 </div>
 </footer>
 </body>
