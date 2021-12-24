@@ -10,7 +10,7 @@
 ;; Refer the Makefile for more info.
 
 ;;; Code:
-;(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+;; Modified the code so that package install is done in Emacs directly
 (require 'package)
 ;(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 ;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
