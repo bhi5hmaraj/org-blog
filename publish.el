@@ -51,7 +51,8 @@
 <link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
 <link rel='stylesheet' href='/css/site.css?v=2' type='text/css'/>
 <link rel='stylesheet' href='/css/custom.css' type='text/css'/>
-<link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>")
+<link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>
+<link href='/css/isso.css' rel='stylesheet' type='text/css'/>")
 
 (defun me/website-html-preamble (plist)
   "PLIST: An entry."
