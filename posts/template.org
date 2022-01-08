@@ -91,4 +91,7 @@ needed.[fn:org-manual][fn:publish]
 [fn:org-manual] Visit [[https://orgmode.org/org.html][The Org Manual]] for more detail.
 [fn:publish] It's easy to publish org-mode pages via [[https://about.gitlab.com/gitlab-ci/][GitLab CI]] and [[https://pages.gitlab.io/][Pages]].
 
-#+INCLUDE: "../disquss.inc"
+
+
+
+#+INCLUDE: "../isso.inc"
