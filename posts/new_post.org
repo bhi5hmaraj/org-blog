@@ -1,7 +1,9 @@
 #+title: Sample Post 2
-#+date: <2021-12-21 Wed>
+#+date: <2023-01-22 Sun>
 #+filetags: sample
 #+setupfile: ../org-templates/post.org
+
+#+INCLUDE: "../commento.inc"
 
 * Heading 1
 ** This is the new heading of the post!
@@ -14,9 +16,7 @@ This is the best of times, this is the worst of times!
 - Hopefully it works now
 - Please work!
 
-** Heading 2
+* Heading 2
 - Please work!
+- Why are you not working?
 
-
-
-#+INCLUDE: "../commento.inc"

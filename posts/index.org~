@@ -1,6 +1,6 @@
 #+TITLE: Blog Index
 
 - *[[file:new_post.org][Sample Post 2]]*
-  #+html: <p class='pubdate'>Dec 21, 2021.</p>
+  #+html: <p class='pubdate'>Jan 22, 2023.</p>
 - *[[file:template.org][Sample Post]]*
   #+html: <p class='pubdate'>Feb 05, 2020.</p>
