@@ -1,9 +1,8 @@
 #+title: About
 #+filetags: about
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Hi stranger! Welcome to my corner of the internet. I'm Bhishmaraj (pronounced bee-shh-ma), I'm not very sure about the exact content of the blog but it would be a random walk through various topics which piques my interest. I'm a huge fan of [[http://www.paulgraham.com/identity.html][keeping identities small]], but I'll still add some of my influences and interests as might it help you in getting a sense of where I'm coming from and type of content that you can expect. 
+
+For the past few years, I started introspecting more about the nature of human cognition and it's various pitfalls a la. Thinking fast and slow. This naturally led me to the rationality community which is commonly associated with LessWrong and SlateStarCodex. I found the 2 forums to be immensely valuable in furthering my interests and making me more rational (I hope so). About the same time, I've been following the burgeoning EA (effective altruism) movement and would like to explore some of the core themes and ideas of this community. Apart from these due to my background in CS, there might be some technical posts about cool topics which I would have felt like sharing.
+
+The other broad theme I would like to explore are the various forms of life optimization such as mental health (mindfulness), physical health (fitness) to attain a state of [[https://en.wikipedia.org/wiki/Positive_psychology][human flourishing]].
