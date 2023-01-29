@@ -3,7 +3,6 @@
 #+filetags: sample
 #+setupfile: ../org-templates/post.org
 
-#+INCLUDE: "../commento.inc"
 
 * Heading 1
 ** This is the new heading of the post!
@@ -23,3 +22,5 @@ This is the best of times, this is the worst of times!
 
 * Comments sections is the next target!
 
+
+#+INCLUDE: "../commento.inc"

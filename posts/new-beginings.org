@@ -1,0 +1,35 @@
+#+title: New beginings
+#+date: <2023-01-22 Sun>
+#+filetags: misc
+#+setupfile: ../org-templates/post.org
+
+I'm not very sure about the exact content of the blog, but it would be a random walk through various topics which piques my interest. I'm a huge fan of Paul Graham's idea of [[http://www.paulgraham.com/identity.html][keeping identities small]], but I'll still add some of my influences and interests as might it help you in getting a sense of where I'm coming from and the type of content that you can expect. 
+
+For the past few years, I started introspecting more about the nature of human cognition and its various pitfalls à la. Thinking fast and slow. This naturally led me to the rationality community which is commonly associated with LessWrong and SlateStarCodex. I found these forums to be immensely valuable in furthering my interests and making me more rational (I hope so). About the same time, I've been following the burgeoning EA (effective altruism) movement and would like to explore some core themes and ideas of this community. Apart from these due to my background in CS, there might be some technical posts about whatever cool topic which catches my fancy.
+
+The other broad theme I would like to explore are the various forms of life optimizations such as mental health (mindfulness), physical health (fitness) to attain a state of [[https://en.wikipedia.org/wiki/Positive_psychology][human flourishing]].
+
+
+# use return statement
+# Entire source block will get indented and used as the body of main()
+
+#+begin_src python :exports both  :results raw
+  def foo(x):
+    if x>0:
+      return x+1
+    else:
+      return x-1
+
+  return foo(10)
+#+end_src
+
+#+RESULTS:
+11
+
+
+#+begin_src haskell
+putStrLn (show "Hello")
+#+end_src
+
+#+RESULTS:
+: Hello

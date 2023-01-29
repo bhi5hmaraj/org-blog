@@ -1,5 +1,7 @@
 #+TITLE: Blog Index
 
+- *[[file:new-beginings.org][New beginings]]*
+  #+html: <p class='pubdate'>Jan 22, 2023.</p>
 - *[[file:new_post.org][Sample Post 2]]*
   #+html: <p class='pubdate'>Jan 22, 2023.</p>
 - *[[file:template.org][Sample Post]]*

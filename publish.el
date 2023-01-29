@@ -14,6 +14,9 @@
 (require 'package)
 ;(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 ;(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+
+(add-to-list 'load-path (concat user-emacs-directory "lisp/" ))
+
 (package-initialize)
 ;(package-refresh-contents)
 ;(package-install 'htmlize)
@@ -23,6 +26,9 @@
 
 (require 'org)
 (require 'ox-publish)
+
+(load "ox-rss")
+
 ;(require 'ox-reveal)
 
 ;; setting to nil, avoids "Author: x" at the bottom

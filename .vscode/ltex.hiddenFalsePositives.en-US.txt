@@ -1,0 +1,1 @@
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\QFor the past few years, I started introspecting more about the nature of human cognition and it's various pitfalls a la.\\E$"}
